@@ -1,0 +1,71 @@
+@media (max-width : 768px) {
+    .main {
+        padding: 30px 10px;
+    }
+
+    .header {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .one .mid>button,
+    .one .mid>input {
+
+        max-width: 100%;
+    }
+
+    input#zip-value {
+        width: 100%
+    }
+
+    .one .mid>input input {
+        width: 100%;
+    }
+
+    .questions>div h1 {
+        font-size: 25px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .header .left {
+        display: none;
+    }
+
+    .one {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 5px;
+    }
+
+    .two .boxes>.top>div,
+    .two .boxes>.buttom>div {
+        flex-direction: column-reverse;
+        width: 110px;
+        height: 110px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 0;
+        justify-content: center;
+        margin-bottom: 10px;
+        box-shadow: 0 0 5px 2px;
+    }
+
+    .img {
+        margin-bottom: 3px;
+    }
+
+    .progress-par {
+
+        display: block;
+        margin: 0;
+    }
+
+    .progress {
+        width: 75%;
+    }
+}

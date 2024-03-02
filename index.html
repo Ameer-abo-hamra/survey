@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css.css" />
+    <link rel="stylesheet" href="./font/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./media.css" />
+    <title>Window Replacment</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="header">
+          welcome to our survey
+          <div class="left">
+            <a href=""> <i class="fa-solid fa-house-chimney-window"></i> </a>
+          </div>
+        </div>
+
+        <div class="questions">
+          <div class="one" id="q0">
+            <h1>first let us know where are you</h1>
+
+            <div class="mid">
+              <div class="input">
+                <input type="number" placeholder="ZIP Code" id="zip-value" />
+                <span class="validatoin" id="zip-validation">
+                  please enter a vaild postal code
+                </span>
+              </div>
+              <button id="zip">GET QUOTES</button>
+            </div>
+            <!-- <div class="buttom">
+              <ul>
+                <li>
+                  Compare Replacement Prices by Window Type & Frame Material
+                </li>
+                <li>Get Free Window Replacement & Repair Quotations</li>
+                <li>Learn About Energy-Efficient Windows for Your Home</li>
+                <li>Get Valuable Recommendations from Window Pros</li>
+                <li>Hire Local Window Contractors with Proven Expertise</li>
+              </ul>
+            </div> -->
+          </div>
+          <div class="with-progress">
+           
+            <div class="two" id="q1">
+              <h1>What window upgrades are you looking for?</h1>
+
+              <div class="boxes">
+                <div class="top">
+                  <div class="box check" onclick="send(0)" val="window replacment">
+                    Window <br />
+                    Replacement <img src="./1.svg" class="img" alt="" />
+                  </div>
+                </div>
+                <div class="buttom">
+                  <div class="box " onclick="send(1)" val="window Repair">
+                    Window <br />
+                    Repair <img src="./2.svg" class="img" alt="" />
+                  </div>
+
+                  <div class="box" onclick="send(2)" val="window Installation">
+                    Window <br />
+                    Installation <img src="./3.svg" class="img" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="go-back">
+            <i class="fa-solid fa-arrow-left"></i> BACK
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js.js"></script>
+  </body>
+</html>
